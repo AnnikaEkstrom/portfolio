@@ -6,7 +6,7 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="navwrapper">
         <label className="hamburger" htmlFor="hamburger">
           <div className="burgermenu" />
           <div className="burgermenu" />
@@ -18,7 +18,7 @@ class Navigation extends React.Component {
             <li><Link to="/">HOME</Link></li>
             <li><Link to="/projects">PROJECTS</Link></li>
             <li><Link to="/about">ABOUT</Link></li>
-            {/* <li><Link to="/faq">FAQ</Link></li> */}
+            <li><Link to="/contact">CONTACT</Link></li>
           </ul>
         </div>
       </div>

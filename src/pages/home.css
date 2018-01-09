@@ -19,7 +19,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    animation: down 2s 1 ease-in-out;
+    animation: down 4s 1 ease-in-out;
 }
 
 .container {
@@ -41,7 +41,7 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 10px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 hr {
@@ -63,22 +63,24 @@ img {
 .text {
   width: 200px;
   height: 300px;
-  background: #b9a7a7;
+  background: white;
   animation-name: slidein;
-  animation-duration: 5s;
+  animation-duration: 7s;
+  padding-top: 50px;
 }
 
 p#text {
   text-align: center;
   padding-top: 10px;
   animation-name: turnleft;
-  animation-duration: 5s;
+  animation-duration: 7s;
 }
 
 .info {
   width: 300px;
   height: auto;
 }
+
 .background:hover {
   animation: slide 4s 1 ease-in-out;
   transform : translateX(-300px);
@@ -119,13 +121,10 @@ p#text {
     transform: translateX(0px);
   }
 
-  50% {
-    transform : translateX(-300px);
-  }
-
   100% {
     transform : translateX(-300px);
   }
+
 }
 
 @keyframes slideright {
@@ -142,11 +141,11 @@ p#text {
   0% {
     transform: translateY(-100px);
   }
-
   50% {
     transform: translateY(0px);
   }
 }
+
 
 @media (max-width: 600px) {
   html,

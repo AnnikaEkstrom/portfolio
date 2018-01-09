@@ -6,13 +6,13 @@ class Details extends React.Component {
   render() {
     return (
 
-      <div className="ProjectDetail">
+      <div className="projectDetail" style={{ backgroundImage: `url(${this.props.projectImage})` }} alt="a">
         <h2>{this.props.name}</h2>
-        <div className="description">
+        <div className="projectDescription">
           <p>{this.props.description}</p>
+          <p>{this.props.link}</p>
         </div>
       </div>
-
     )
   }
 }

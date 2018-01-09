@@ -1,52 +1,175 @@
-.projectcontainer {
-  display: flex;
-  justify-content: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.mainproducts {
-  width: 80%;
-  background: red;
-}
-
-.productdetails {
-  width: 100%;
-  height: 900px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 60px;
-}
-
-.ProjectDetail {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 200px;
-  height:200px;
-  border: 1px solid;
-  border-color: white;
-  border-radius: 50%;
-  background-color: white;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 20vw);
+  grid-auto-rows: 15vw;
+  grid-gap: 15px;
   text-align: center;
-  margin: 2px;
-  font-size: 1.4vw;
-}
-
-.ProjectDetail:hover {
   background: #2e2b2b;
-  color: #e9e0e0;
+  padding: 100px;
+  width: 100%;
 }
 
-@media (max-width: 900px) {
-  .productdetails {
-    width: 100%;
-    height: auto;
+h2 {
+  background: white;
+  width: 150px;
+  text-align: center;
+  position: absolute;
+  margin-top: 0;
+  padding-top: 0;
+  left: 0;
+}
+
+.projectDescription {
+  background: white;
+  bottom: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.grid-container div {
+  color: black;
+  text-align: center;
+
+}
+.projectDetail {
+  background-color: white;
+  background-size: cover;
+  border: 5px solid;
+  border-color: white;
+}
+/*
+.projectDetail:hover {
+  font-size: 20px;
+} */
+
+.grid-container div:first-child {
+  position: relative;
+  background-color: white;
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  grid-row: span 2;
+    animation: slidein 6s ease-in-out;
   }
-  .description {
-    display: none;
+
+.grid-container > div:nth-child(2) {
+  position: relative;
+  animation: slidein 6s ease-in-out;
+}
+
+.grid-container div:nth-child(3)
+ {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  grid-column: span 2;
+  animation: slidefromright 6s ease-in-out;
   }
-  h2 {
-    font-size: 5vw;
-    margin-top: 30%;
+
+.grid-container div:nth-child(4) {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  grid-column: span 2;
+  animation: slidein 6s ease-in-out;
   }
+
+.grid-container div:nth-child(5) {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  grid-column: span 1;
+  animation: slidefromright 6s ease-in-out;
+  }
+
+.grid-container div:nth-child(6) {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  grid-column: span 2;
+  grid-row: span 2;
+  animation: slidein 6s ease-in-out;
+  }
+
+.grid-container div:nth-child(7) {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  grid-column: span 1;
+  animation: slidefromright 6s ease-in-out;
+  }
+
+.grid-container div:nth-child(8) {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  grid-row: span 2;
+  animation: slidefromright 6s ease-in-out;
+  }
+
+@keyframes slidein {
+  0% {
+    transform: translate(-700px);
+  }
+  50% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes slidefromright {
+  0% {
+    transform: translate(700px);
+  }
+  50% {
+    transform: translate(0px);
+  }
+}
+
+@media(max-width: 600px){
+  .grid-container {
+    grid-template-columns: repeat(2, 70vw);
+    grid-auto-rows: 70vw;
+    padding: 0;
+}
+
+body {
+  width: 100%;
+}
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+.grid-container {
+  grid-template-columns: repeat(2, 40vw);
+  grid-auto-rows: 40vw;
+}
+p {
+font-size: 25px;
+}
+h1 {
+font-size: 60px;
+}
+h2 {
+font-size: 30px;
+}
 }

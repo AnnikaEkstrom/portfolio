@@ -21,6 +21,7 @@ class Home extends React.Component {
                 <p id="text">My name is Annika Ekström,
                   I am currently studying
                   web development at Technigo.
+                  <br />
                   Welcome to navigate around in my portfolio.
                 </p>
               </div>

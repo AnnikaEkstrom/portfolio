@@ -9,17 +9,13 @@ class ProjectPreview extends React.Component {
   render() {
     return (
       // <Link to={`/projects/${this.props.url}`} className="projects">
-      <div className="projectcontainer">
-        <div className="mainproducts">
-          <div className="productdetails">
-            {projects.map((item) => {
-              return <Details
-                key={item.id}
-                name={item.name}
-                description={item.description} />
-            })}
-          </div>
-        </div>
+      <div className="grid-container">
+        {projects.map((item) => {
+          return <Details
+            key={item.id}
+            description={item.description}
+            projectImage={item.projectImage} />
+        })}
       </div>
     )
   }

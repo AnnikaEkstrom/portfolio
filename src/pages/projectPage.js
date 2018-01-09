@@ -27,8 +27,11 @@ render() {
     <div>
       <div className="ProjectPage">
         <h1>{this.state.project.name}</h1>
-        <div className="description">
+        <div className="projectDescription">
           <p>{this.state.project.description}</p>
+          <div className="projectImage">
+            <p>{this.state.project.projectImage}</p>
+          </div>
         </div>
       </div>
     </div>
