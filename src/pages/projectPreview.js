@@ -14,7 +14,8 @@ class ProjectPreview extends React.Component {
           return <Details
             key={item.id}
             description={item.description}
-            projectImage={item.projectImage} />
+            projectImage={item.projectImage}
+            link={item.link} />
         })}
       </div>
     )

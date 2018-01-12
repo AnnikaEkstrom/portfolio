@@ -44,13 +44,14 @@ h2 {
   background-size: cover;
   border: 5px solid;
   border-color: white;
+  display: block;
 }
 /*
 .projectDetail:hover {
   font-size: 20px;
 } */
 
-.grid-container div:first-child {
+.grid-container .projectDetail:first-child {
   position: relative;
   background-color: white;
   text-align: left;
@@ -60,12 +61,12 @@ h2 {
     animation: slidein 6s ease-in-out;
   }
 
-.grid-container > div:nth-child(2) {
+.grid-container > .projectDetail:nth-child(2) {
   position: relative;
   animation: slidein 6s ease-in-out;
 }
 
-.grid-container div:nth-child(3)
+.grid-container .projectDetail:nth-child(3)
  {
   position: relative;
   text-align: left;
@@ -75,7 +76,7 @@ h2 {
   animation: slidefromright 6s ease-in-out;
   }
 
-.grid-container div:nth-child(4) {
+.grid-container .projectDetail:nth-child(4) {
   position: relative;
   text-align: left;
   padding-left: 20px;
@@ -84,7 +85,7 @@ h2 {
   animation: slidein 6s ease-in-out;
   }
 
-.grid-container div:nth-child(5) {
+.grid-container .projectDetail:nth-child(5) {
   position: relative;
   text-align: left;
   padding-left: 20px;
@@ -93,7 +94,7 @@ h2 {
   animation: slidefromright 6s ease-in-out;
   }
 
-.grid-container div:nth-child(6) {
+.grid-container .projectDetail:nth-child(6) {
   position: relative;
   text-align: left;
   padding-left: 20px;
@@ -103,7 +104,7 @@ h2 {
   animation: slidein 6s ease-in-out;
   }
 
-.grid-container div:nth-child(7) {
+.grid-container .projectDetail:nth-child(7) {
   position: relative;
   text-align: left;
   padding-left: 20px;
@@ -112,7 +113,7 @@ h2 {
   animation: slidefromright 6s ease-in-out;
   }
 
-.grid-container div:nth-child(8) {
+.grid-container .projectDetail:nth-child(8) {
   position: relative;
   text-align: left;
   padding-left: 20px;
@@ -141,9 +142,12 @@ h2 {
 
 @media(max-width: 600px){
   .grid-container {
-    grid-template-columns: repeat(2, 70vw);
-    grid-auto-rows: 70vw;
+    grid-template-columns: repeat(2, 60vw);
+    grid-auto-rows: 60vw;
     padding: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 body {

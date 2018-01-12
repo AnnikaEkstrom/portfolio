@@ -5,7 +5,7 @@ import calendar from "./calendar.PNG"
 import clock from "./clock.PNG"
 import form from "./forms.PNG"
 import habittracker from "./habittracker.png"
-import products from "./products.PNG"
+import weather from "./weather.PNG"
 
 export default [
   {
@@ -18,36 +18,42 @@ export default [
     id: "clock",
     name: "Clock",
     description: "Using React and js to fetch the time.",
-    projectImage: clock
+    projectImage: clock,
+    link: "https://annikaekstrom.github.io/assignment-clock"
   }, {
     id: "radio-player",
     name: "Radio Player",
     description: "Fetching the Swedish Radio using JS and React.",
-    projectImage: radio
+    projectImage: radio,
+    link: "https://annikaekstrom.github.io/assignment-radio-player"
   }, {
     id: "accordion",
     name: "Accordion",
-    description: "Using forms to make an accordion.",
-    projectImage: accordion
+    description: "Creating FAQ with accordion.",
+    projectImage: accordion,
+    link: "https://annikas-assignment-accordion.netlify.com/"
   }, {
-    id: "product page",
-    name: "Product Page",
-    description: "Fetching information and using flex-box.",
-    projectImage: products
+    id: "weather app",
+    name: "Weather App",
+    description: "Fetching information and using JS.",
+    projectImage: weather
   }, {
     id: "christmas-calenar",
     name: "Christmas Calendar",
     description: "Group project using JS to create a calendar and setting time.",
-    projectImage: calendar
+    projectImage: calendar,
+    link: "https://cookiedough-poincare-d7a52d.netlify.com"
   }, {
     id: "form",
     name: "Form",
     description: "Creating a sign up using forms.",
-    projectImage: form
+    projectImage: form,
+    link: "https://forms-assignment.netlify.com/"
   }, {
-    id: "firstproject",
-    name: "First Project",
+    id: "habittracker",
+    name: "Habittracker",
     description: "Group project using JS and React.",
-    projectImage: habittracker
+    projectImage: habittracker,
+    link: "https://annikaekstrom.github.io/assignment-habittracker/"
   }
 ]
