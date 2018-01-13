@@ -2,8 +2,10 @@
   "name": "react-starter",
   "version": "1.2.2",
   "private": true,
+  "homepage": "https://annikaekstrom.github.io/portfolio",
   "dependencies": {
     "eslint-config-technigo": "^1.4.0",
+    "gh-pages": "^1.1.0",
     "nodemailer": "^4.4.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -14,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
