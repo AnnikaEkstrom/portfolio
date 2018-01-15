@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route } from "react-router-dom"
+import { HashRouter, Route } from "react-router-dom"
 import About from "pages/about"
 import Home from "pages/home"
 import ProjectPreview from "./../pages/projectPreview"
@@ -11,7 +11,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Navigation />
           <Route exact path="/" component={Home} />
@@ -21,7 +21,7 @@ class App extends React.Component {
           <Footer />
 
         </div>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 
