@@ -58,17 +58,18 @@ ul {
 .menu {
   background: #2e2b2b;
   color: white;
-  width: 600px;
+  width: 139%;
   position: absolute;
   top: -100%;
   transition: all 0.7s ease;
   opacity: 0;
   display: none;
+  z-index: 1;
 }
 
 .hamburger-checkbox:checked ~ .menu {
   opacity: 1;
-  top: 100px;
+  top: 82px;
 }
 
 .hamburger-checkbox:checked + .hamburger .bar1 {
