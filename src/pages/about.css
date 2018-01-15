@@ -9,6 +9,7 @@
 
 .material-icons {
   font-size: 15vw;
+  visibility: visible;
 }
 
 	.flip-container:hover .flipper,
@@ -94,6 +95,10 @@
 	height: 117px;
 }
 
+p#show {
+  visibility: hidden;
+  color: black;
+}
 .back-title {
 	font-weight: bold;
 	color: #2e2b2b;
@@ -111,7 +116,7 @@
   font-size: 70px;
   font-family: 'Oxygen', sans-serif;
 }
-.back p {
+.back p#showflip {
 	position: absolute;
 	bottom: 40px;
 	left: 0;
@@ -119,6 +124,7 @@
 	text-align: center;
 	padding: 0 20px;
   line-height: 2em;
+  font-size: 15px;
 }
 
 .about-container {
@@ -135,6 +141,13 @@
 @media (max-width: 600px) {
   .back p {
     line-height: 1.3em;
+  }
+  p#show {
+    visibility: visible;
+    color: black;
+  }
+  .material-icons {
+    visibility: hidden;
   }
 }
 /* .education {
