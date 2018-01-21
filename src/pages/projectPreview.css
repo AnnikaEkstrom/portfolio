@@ -58,12 +58,12 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-row: span 2;
-    animation: slidein 6s ease-in-out;
+    animation: slidein 4s ease-in-out;
   }
 
 .grid-container > .projectDetail:nth-child(2) {
   position: relative;
-  animation: slidein 6s ease-in-out;
+  animation: slidein 4s ease-in-out;
 }
 
 .grid-container .projectDetail:nth-child(3)
@@ -73,7 +73,7 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-column: span 2;
-  animation: slidefromright 6s ease-in-out;
+  animation: slidefromright 4s ease-in-out;
   }
 
 .grid-container .projectDetail:nth-child(4) {
@@ -82,7 +82,7 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-column: span 2;
-  animation: slidein 6s ease-in-out;
+  animation: slidein 4s ease-in-out;
   }
 
 .grid-container .projectDetail:nth-child(5) {
@@ -91,7 +91,7 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-column: span 1;
-  animation: slidefromright 6s ease-in-out;
+  animation: slidefromright 4s ease-in-out;
   }
 
 .grid-container .projectDetail:nth-child(6) {
@@ -101,7 +101,7 @@ h2 {
   color: black;
   grid-column: span 2;
   grid-row: span 2;
-  animation: slidein 6s ease-in-out;
+  animation: slidein 4s ease-in-out;
   }
 
 .grid-container .projectDetail:nth-child(7) {
@@ -110,7 +110,7 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-column: span 1;
-  animation: slidefromright 6s ease-in-out;
+  animation: slidefromright 4s ease-in-out;
   }
 
 .grid-container .projectDetail:nth-child(8) {
@@ -119,7 +119,7 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-row: span 2;
-  animation: slidefromright 6s ease-in-out;
+  animation: slidefromright 4s ease-in-out;
   }
 
 @keyframes slidein {

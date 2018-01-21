@@ -7,10 +7,12 @@
 	border: 2px solid #f8f8f8;
 }
 
-.material-icons {
-  font-size: 15vw;
+/* .material-icons {
+  font-size: 10vw;
   visibility: visible;
-}
+  color: #2e2b2b;
+  margin-left: 10%;
+} */
 
 	.flip-container:hover .flipper,
   .flip-container.hover .flipper {
@@ -145,6 +147,10 @@ p#show {
   p#show {
     visibility: visible;
     color: black;
+  }
+  p {
+    margin: 25px;
+    margin-top: 0;
   }
   .material-icons {
     visibility: hidden;

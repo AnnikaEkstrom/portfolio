@@ -14,18 +14,18 @@ class About extends React.Component {
             ontouchstart="this.classList.toggle('hover')">
             <div className="flipper">
               <div className="front">
-                <div className="front-logo" />
                 <div className="front-title">
                   <h1 id="about-headline">Education <br />
                     <p id="show">
+                      {/* <i className="material-icons">school</i> */}
                     I am currently studying web development at Technigo.
-                        In 12 weeks I have been learning HTML, CSS, JavaScript,
-                        React and Node. It is an intense program and every day has
-                        been filled with new information, individual assignments
-                        and group assignment. <br /> Moreover, I have a Master
-                        in Business from Linköping University.
+                    In 12 weeks I have been learning HTML, CSS, JavaScript,
+                    React and Node. It is an intense program and every day has
+                    been filled with new information, individual assignments
+                    and group assignment. <br /> Moreover, I have a Master
+                    in Business from Linköping University.
                     </p>
-                    <i className="material-icons">school</i>
+
                   </h1>
                 </div>
               </div>
@@ -49,6 +49,7 @@ class About extends React.Component {
             <div className="flipper">
               <div className="front">
                 <div className="front-title">
+                  {/* <i className="material-icons">work</i> */}
                   <h1 id="about-headline">Work <br />
                     <p id="show">
                     Hitachi, EF and EMG are three companies
@@ -58,7 +59,6 @@ class About extends React.Component {
                     project management and marketing. I am used to work in
                     teams and I value a humble atmosphere.
                     </p>
-                    <i className="material-icons">work</i>
                   </h1>
                 </div>
 

@@ -23,7 +23,8 @@ class Home extends React.Component {
                   I am currently studying
                   web development at Technigo.
                   <br />
-                  Welcome to navigate around in my portfolio.
+                  Have a look in my portfolio to see what we have been doing during the
+                  course.
                 </p>
               </div>
             </div>
