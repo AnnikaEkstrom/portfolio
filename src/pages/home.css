@@ -22,6 +22,9 @@ html {
     animation: down 4s 1 ease-in-out;
 }
 
+p {
+  background: white;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -167,5 +170,6 @@ h1 {
   }
   .text {
     padding-top: 22px;
+    line-height: 1.2em;
   }
 }
