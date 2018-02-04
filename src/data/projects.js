@@ -1,18 +1,18 @@
-import example from "./yearbook.PNG"
+import yearbook from "./yearbook.PNG"
 import accordion from "./accordion.PNG"
 import radio from "./radio.PNG"
 import calendar from "./calendar.PNG"
 import clock from "./clock.PNG"
 import form from "./forms.PNG"
 import habittracker from "./habittracker.png"
-import weather from "./weather.PNG"
+import seizetheparty from "./seizetheparty.PNG"
 
 export default [
   {
     id: "yearbook",
     name: "Yearbook",
-    description: "Importing data using flex-box.",
-    projectImage: example,
+    description: "The first Teachnigo assignment.",
+    projectImage: yearbook,
     link: "https://annikaekstrom.github.io/assignment-yearbook/"
   }, {
     id: "clock",
@@ -33,10 +33,11 @@ export default [
     projectImage: accordion,
     link: "https://annikas-assignment-accordion.netlify.com/"
   }, {
-    id: "weather app",
-    name: "Weather App",
-    description: "Fetching information and using JS.",
-    projectImage: weather
+    id: "Seize the party",
+    name: "Seize the Party",
+    description: "Creating an event page with JS, React and Node.",
+    projectImage: seizetheparty,
+    link: "http://seizetheparty.events"
   }, {
     id: "christmas-calenar",
     name: "Christmas Calendar",
