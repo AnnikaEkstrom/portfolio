@@ -18,7 +18,7 @@ class About extends React.Component {
                   <h1 id="about-headline">Education <br />
                     <p id="show">
                       {/* <i className="material-icons">school</i> */}
-                    I am currently studying web development at Technigo.
+                    After studying web development at Technigo I now work at Seenthis.
                     In 12 weeks I have been learning HTML, CSS, JavaScript,
                     React and Node. It is an intense program and every day has
                     been filled with new information, individual assignments
