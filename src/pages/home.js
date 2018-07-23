@@ -11,7 +11,7 @@ class Home extends React.Component {
         <div className="body">
 
           <div className="header">
-            <h1 id="annika">ANNIKA EKSTRÖM</h1>
+            <h1 id="annika">AANNIKA EKSTRÖM</h1>
           </div>
           <div className="container" style={{ backgroundImage: `url(${something})` }}>
             <div className="main">
