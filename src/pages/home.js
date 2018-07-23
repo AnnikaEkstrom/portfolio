@@ -11,7 +11,7 @@ class Home extends React.Component {
         <div className="body">
 
           <div className="header">
-            <h1 id="annika">AANNIKA EKSTRÖM</h1>
+            <h1 id="annika">ANNIKA EKSTRÖM</h1>
           </div>
           <div className="container" style={{ backgroundImage: `url(${something})` }}>
             <div className="main">
@@ -19,9 +19,8 @@ class Home extends React.Component {
                 <img src="./annika1.png" alt="Annika" />
               </div>
               <div className="text">
-                <p id="text">My name is Annika Ekström,
-                  I am currently studying
-                  web development at Technigo.
+                <p id="text">
+                  After 12 weeks at Technigo Bootcamp, I am passionate about web development.
                   <br />
                   Have a look in my portfolio to see what we have been doing during the
                   course.
@@ -30,20 +29,19 @@ class Home extends React.Component {
             </div>
             <hr />
             <div className="info background">
-              <h1>My Background</h1>
+              <h1>MY BACKGROUND</h1>
               <p>I have mainly worked in sales where my
                 focus has been on building long
               lasting customer relationships. My previous
               roles have also included project management,
               marketing, customer support and personnel
-              responsibility.
+              responsibility. I'm currently using my skills in programming, working at Seenthis.
               </p>
             </div>
             <hr />
             <div className="info future">
-              <h1>My Future</h1>
-              <p>With service in mind, I want to add on
-                the new knowledge with HTML, CSS, JavaScript,
+              <h1>MY FUTURE</h1>
+              <p>With service in mind, I want to continue learning more HTML, CSS, JavaScript,
                 React and Node and work with projects
                 where I can add value with my combination of
                 service-mindeness and web development.
