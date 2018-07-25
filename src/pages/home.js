@@ -20,10 +20,9 @@ class Home extends React.Component {
               </div>
               <div className="text">
                 <p id="text">
-                  After 12 weeks at Technigo Bootcamp, I am passionate about web development.
+                  I started to learn web development because I wanted to create.
                   <br />
-                  Have a look in my portfolio to see what we have been doing during the
-                  course.
+                  I am now passionate about it and constantly want to learn more.
                 </p>
               </div>
             </div>
