@@ -20,10 +20,9 @@ class Home extends React.Component {
               </div>
               <div className="text">
                 <p id="text">
-                  After 12 weeks at Technigo Bootcamp, I am passionate about web development.
+                  Hi, my name is Annika. I am am passionate about coding and constanstly want to learn more.
                   <br />
-                  Have a look in my portfolio to see what we have been doing during the
-                  course.
+                  I mainly work with HTML, CSS and JavaScript but I am also a fan of React and Node.
                 </p>
               </div>
             </div>
@@ -35,7 +34,8 @@ class Home extends React.Component {
               lasting customer relationships. My previous
               roles have also included project management,
               marketing, customer support and personnel
-              responsibility. I'm currently using my skills in programming, working at Seenthis.
+              responsibility. A few years ago, I got interested in programming so I quit my
+              job and learnt programming.
               </p>
             </div>
             <hr />

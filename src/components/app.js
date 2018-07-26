@@ -18,7 +18,7 @@ class App extends React.Component {
           <Route path="/projects" component={ProjectPreview} />
           <Route path="/about" component={About} />
           {/* <Route path="/contact" component={Form} /> */}
-          <Footer />
+          {/* <Footer /> */}
 
         </div>
       </HashRouter>

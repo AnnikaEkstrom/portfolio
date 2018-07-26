@@ -171,7 +171,7 @@ h1 {
     height: auto;
   }
   .text {
-    padding-top: 22px;
-    line-height: 1.2em;
+    padding-top: 0px;
+    line-height: 1.1em;
   }
 }

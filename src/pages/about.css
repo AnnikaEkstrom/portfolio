@@ -128,15 +128,21 @@ p#show {
   line-height: 2em;
   font-size: 15px;
 }
-
-.about-container {
-  display: flex;
+.about-container img {
   width: 100%;
   height: auto;
+}
+.about-container {
+  display: flex;
+  width: 600px;
+  height: 900px;
+  top: 20%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
   background-size: cover;
 }
 
