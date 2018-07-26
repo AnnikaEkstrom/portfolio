@@ -20,6 +20,7 @@ class Home extends React.Component {
               </div>
               <div className="text">
                 <p id="text">
+
                   Hi, my name is Annika. I am passionate about coding and constantly want to learn more.
                   <br />
                   I mainly work with HTML, CSS and JavaScript but I am also a fan of React and Node.
