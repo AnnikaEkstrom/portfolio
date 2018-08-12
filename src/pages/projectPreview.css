@@ -58,11 +58,13 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-row: span 2;
+  grid-column: span 2;
     /* animation: slidein 4s ease-in-out; */
   }
 
 .grid-container > .projectDetail:nth-child(2) {
   position: relative;
+  grid-row: span 2;
   /* animation: slidein 4s ease-in-out; */
 }
 
@@ -72,7 +74,7 @@ h2 {
   text-align: left;
   padding-left: 20px;
   color: black;
-  grid-column: span 2;
+  grid-row: span 2;
   /* animation: slidefromright 4s ease-in-out; */
   }
 
@@ -82,6 +84,7 @@ h2 {
   padding-left: 20px;
   color: black;
   grid-column: span 2;
+  grid-row: span 2;
   /* animation: slidein 4s ease-in-out; */
   }
 
@@ -90,7 +93,8 @@ h2 {
   text-align: left;
   padding-left: 20px;
   color: black;
-  grid-column: span 1;
+  grid-column: span 2;
+  grid-row: span 2;
   /* animation: slidefromright 4s ease-in-out; */
   }
 
