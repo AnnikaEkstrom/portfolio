@@ -10,9 +10,10 @@ body {
   grid-auto-rows: 15vw;
   grid-gap: 15px;
   text-align: center;
-  background: #2e2b2b;
-  padding: 100px;
-  width: 100%;
+  background: #efe9ea;
+  padding: 40px;
+  width: 90%;
+  margin: 70px;
 }
 
 h2 {

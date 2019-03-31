@@ -3,12 +3,22 @@ import "./about.css"
 import personality from "./personality.jpg"
 import something from "./something.jpg"
 import resume from "./CVAnnikaEkstrom.png"
+import projects from "./../data/projects"
+import Details from "./details"
 
 class About extends React.Component {
 
   render() {
     return (
       <div>
+
+        <div className="video-container">
+          {projects.map((item) => {
+            return <Details
+              key={item.id}
+              source={item.source} />
+          })}
+        </div>
         <div className="about-container" style={{ backgroundImage: `url(${resume})` }} alt="">
           {/* <div
             className="flip-container"
